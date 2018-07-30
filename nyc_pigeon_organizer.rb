@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
 
   data[:gender][:male].concat(data[:gender][:female]).each do |birdName|
     if pigeon_list.has_key?("#{birdName}") == false
-      pigeon_list = "#{birdName}"
+      pigeon_list = "#{birdName}" = {:color}
       binding.pry
       #pigeon_list["#{birdName}"] => {:color => [], :gender => [], :lives => []}
     end
