@@ -25,5 +25,4 @@ def nyc_pigeon_organizer(data)
   end# end of data[:gender]
 
   pigeon_list
-  binding.pry
 end#end of function
