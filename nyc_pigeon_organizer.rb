@@ -12,7 +12,6 @@ def nyc_pigeon_organizer(data)
       else
         pigeon_list[birdName][:gender] << 'female'
       end
-      binding.pry
     end
   end
 
