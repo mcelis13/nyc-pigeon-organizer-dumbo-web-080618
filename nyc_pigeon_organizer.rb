@@ -25,6 +25,7 @@ def nyc_pigeon_organizer(data)
       data[:lives].each do |place_of_residence, birdsArray|
         birdsArray.each do |nameOfBirdLivingThere|
           if birdName == nameOfBirdLivingThere
+            pigeon_list[birdName][:lives] << lives.to_s
           end
         end#end of birdsArray
       end#end of data[:lives]
