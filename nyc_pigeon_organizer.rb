@@ -18,9 +18,10 @@ def nyc_pigeon_organizer(data)
           if birdName == name
             pigeon_list[birdName][:color] << color.to_s
             binding.pry
-          end
-        end
-      end
+          end#end of if statement
+        end#end of nameArray
+      end#end of data[:color].each
+      
     end
   end
 
