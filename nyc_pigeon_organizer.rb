@@ -12,10 +12,13 @@ def nyc_pigeon_organizer(data)
       else
         pigeon_list[birdName][:gender] << 'female'
       end
+
+      data[:color].each do |color, nameArray|
+        binding.pry
+      end
     end
   end
-
-  colors = data[:color][:purple].concat(data[:color][:grey]).concat(data[:color][:white])
+  
   binding.pry
   pigeon_list
 end
