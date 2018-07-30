@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     if pigeon_list.has_key?("#{birdName}") == false
       pigeon_list = "#{birdName}"
       binding.pry
-      pigeon_list["#{birdName}"] => {:color => [], :gender => [], :lives => []}
+      #pigeon_list["#{birdName}"] => {:color => [], :gender => [], :lives => []}
     end
   end
 
