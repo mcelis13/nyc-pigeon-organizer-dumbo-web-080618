@@ -17,7 +17,6 @@ def nyc_pigeon_organizer(data)
         nameArray.each do |name|
           if birdName == name
             pigeon_list[birdName][:color] << color.to_s
-            binding.pry
           end#end of if statement
         end#end of nameArray
       end#end of data[:color].each
