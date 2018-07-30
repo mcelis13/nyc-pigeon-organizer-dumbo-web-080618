@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
         end#end of nameArray
       end#end of data[:color].each
       
-    end
+    end#end of data[:gender][:male]
   end
 
   binding.pry
