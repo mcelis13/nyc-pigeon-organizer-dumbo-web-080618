@@ -16,6 +16,6 @@ def nyc_pigeon_organizer(data)
   end
 
   colors = data[:color][:purple].concat(data[:color][:grey]).concat(data[:color][:white])
-
+  binding.pry
   pigeon_list
 end
