@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
 
   data[:gender][:male].concat(data[:gender][:female]).each do |birdName|
     pigeon_list = "#{birdName}"
-    binding.pry
   end
 
   pigeon_list
