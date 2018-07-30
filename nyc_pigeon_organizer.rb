@@ -21,8 +21,8 @@ def nyc_pigeon_organizer(data)
           end#end of if statement
         end#end of nameArray
       end#end of data[:color].each
-      
-    end#end of data[:gender][:male]
+
+    end#end of if statement pigeon_list.has_key
   end
 
   binding.pry
